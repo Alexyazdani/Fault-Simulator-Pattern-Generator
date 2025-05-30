@@ -1,0 +1,3 @@
+READ .././ckts_all/c1908.ckt
+PODEM 536 0 ../auto-tests-phase3-atpg-large/outputs/podem/c1908_podem_536_0.out
+QUIT

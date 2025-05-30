@@ -1,0 +1,3 @@
+/Users/alexyazdani/Documents/USC/EE658/GP4/phase4-20251-t2/build/CMakeFiles/simulator.dir
+/Users/alexyazdani/Documents/USC/EE658/GP4/phase4-20251-t2/build/CMakeFiles/edit_cache.dir
+/Users/alexyazdani/Documents/USC/EE658/GP4/phase4-20251-t2/build/CMakeFiles/rebuild_cache.dir
