@@ -14,22 +14,22 @@
 
 
 ## RTPG
-There are four different versions of RTPG:
+    There are four different versions of RTPG:
 
-V1:
-    TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v1 <FC_switch>
+    V1:
+        TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v1 <FC_switch>
 
-V2:
-    TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v2 <delta_FC>
+    V2:
+        TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v2 <delta_FC>
 
-V3:
-    TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v3 <delta_FC>
+    V3:
+        TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v3 <delta_FC>
 
-V4:
-    TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v4 <delta_FC>
+    V4:
+        TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v4 <delta_FC>
 
-FC_switch is the FC value where TPG switches from RTPG to ATPG
-delta_FC is the change in FC that when reached, will make TPG exit
+    FC_switch is the FC value where TPG switches from RTPG to ATPG
+    delta_FC is the change in FC that when reached, will make TPG exit
 
 
 ## D-FRONTIER HEURISTICS:
