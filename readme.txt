@@ -1,14 +1,13 @@
-To use our TPG function, use the following command to start the simulator:
-
+## To use our TPG function, use the following command to start the simulator:
     ./simulator <int seed>
 
-If no seed is provided, the seed will default to 658.
+## If no seed is provided, the seed will default to 658.
 
-To use our baseline:
-
+## To use our baseline:
     TPG <DALG/PODEM> <PFS/DFS> my_patterns.tp
 
-There are four different versions of RTPG:
+
+## There are four different versions of RTPG:
 
 V1:
     TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v1 <FC_switch>
@@ -22,10 +21,11 @@ V3:
 V4:
     TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v4 <delta_FC>
 
-FC_switch is the FC value where TPG switches from RTPG to ATPG
-delta_FC is the change in FC that when reached, will make TPG exit
+## FC_switch is the FC value where TPG switches from RTPG to ATPG
+## delta_FC is the change in FC that when reached, will make TPG exit
 
-D-FRONTIER HEURISTICS:
+
+## D-FRONTIER HEURISTICS:
 
     TPG  <DALG/PODEM> <PFS/DFS> -df <nl/nh/lh/cc> 
 
@@ -35,12 +35,13 @@ D-FRONTIER HEURISTICS:
     cc - prioritize lowest controllability
 
 
-J-FRONTIER HEURISTICS:
+## J-FRONTIER HEURISTICS:
 
     TPG  <DALG/PODEM> <PFS/DFS> -jf v0
 
 
-FAULT ORDER HEURISTICS:
+## FAULT ORDER HEURISTICS:
+
     TPG  <DALG/PODEM> <PFS/DFS> <outfile> -fl rfl
     TPG  <DALG/PODEM> <PFS/DFS> <outfile> -fl scoap EZ
     TPG  <DALG/PODEM> <PFS/DFS> <outfile> -fl scoap HD
@@ -49,18 +50,21 @@ FAULT ORDER HEURISTICS:
     scoap EZ - lowest CC + CO
     scoap HD - highest CC + CO
 
-TEST VOLUME COMPRESSION:
+
+## TEST VOLUME COMPRESSION:
 
     TPG  <DALG/PODEM> <PFS/DFS> <outfile> -tvc
 
     Takes every 'X' in generated pattern, 
     checks if '1' or '0' will result in more faults detected
 
-DTPFC:
+
+## DTPFC:
+    This command takes a fault list as input, and reports the FC every step for a given pattern frequency
     DTPFC <pattern_file> <FREQ> <outfile>
 
 
-Sample commands:
+## Sample commands:
 
 // BASELINE:
 // READ ../auto-tests-phase3/ckts/c17.ckt
