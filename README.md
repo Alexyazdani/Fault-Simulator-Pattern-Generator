@@ -1,13 +1,17 @@
-## To use our TPG function, use the following command to start the simulator:
+## TPG Command
+    The TPG command is the top-level function to run fault simulation and pattern generation
+    To use our TPG function, use the following command to start the simulator:
+    
     ./simulator <int seed>
-
-## If no seed is provided, the seed will default to 658.
-
-## To use our baseline:
+    
+    If no seed is provided, the seed will default to 658.
+    
+    To use our baseline:
     TPG <DALG/PODEM> <PFS/DFS> my_patterns.tp
 
 
-## There are four different versions of RTPG:
+## RTPG
+There are four different versions of RTPG:
 
 V1:
     TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v1 <FC_switch>
@@ -21,8 +25,8 @@ V3:
 V4:
     TPG  <DALG/PODEM> <PFS/DFS> <outfile> -rtp v4 <delta_FC>
 
-## FC_switch is the FC value where TPG switches from RTPG to ATPG
-## delta_FC is the change in FC that when reached, will make TPG exit
+FC_switch is the FC value where TPG switches from RTPG to ATPG
+delta_FC is the change in FC that when reached, will make TPG exit
 
 
 ## D-FRONTIER HEURISTICS:
