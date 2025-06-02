@@ -1,11 +1,14 @@
-## TPG Command
-    The TPG command is the top-level function to run fault simulation and pattern generation
-    To use our TPG function, use the following command to start the simulator:
+## Build and Run
+    mkdir build && cd build
+    cmake ..
+    make
     
     ./simulator <int seed>
     
     If no seed is provided, the seed will default to 658.
-    
+
+## TPG Command
+    The TPG command is the top-level function to run fault simulation and pattern generation
     To use our baseline:
     TPG <DALG/PODEM> <PFS/DFS> my_patterns.tp
 
